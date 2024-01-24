@@ -1,0 +1,12 @@
+candle/Data/Images/Normal/0434.JPG
+capsules/Data/Images/Normal/004.JPG
+cashew/Data/Images/Normal/358.JPG
+chewinggum/Data/Images/Normal/492.JPG
+fryum/Data/Images/Normal/000.JPG
+macaroni1/Data/Images/Normal/0642.JPG
+macaroni2/Data/Images/Normal/0957.JPG
+pcb1/Data/Images/Normal/0401.JPG
+pcb2/Data/Images/Normal/0609.JPG
+pcb3/Data/Images/Normal/0437.JPG
+pcb4/Data/Images/Normal/0708.JPG
+pipe_fryum/Data/Images/Normal/250.JPG

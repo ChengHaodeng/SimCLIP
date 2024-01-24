@@ -1,0 +1,13 @@
+24-01-24 22:16:36.317 - INFO: data_path: ./data/visa
+24-01-24 22:16:36.318 - INFO: save_path: test/visa/0shot
+24-01-24 22:16:36.318 - INFO: checkpoint_path: pretrain_weights/train_on_mvtec/trainable_epoch_20.pth
+24-01-24 22:16:36.318 - INFO: config_path: ./open_clip/model_configs/ViT-L-14-336.json
+24-01-24 22:16:36.318 - INFO: dataset: visa
+24-01-24 22:16:36.318 - INFO: model: ViT-L-14-336
+24-01-24 22:16:36.318 - INFO: pretrained: openai
+24-01-24 22:16:36.318 - INFO: features_list: [6, 12, 18, 24]
+24-01-24 22:16:36.318 - INFO: image_size: 518
+24-01-24 22:16:36.318 - INFO: mode: zero_shot
+24-01-24 22:16:36.318 - INFO: seed: 3037
+24-01-24 22:16:36.318 - INFO: clip_path: pretrain_weights/train_on_mvtec/clip_epoch_20.pth
+24-01-24 22:16:36.318 - INFO: device: 3
