@@ -1,4 +1,6 @@
 # SimCLIP
-The code implementation of the SimCLIP.
+This repository contains PyTorch implementation for SimCLIP.
+
+
 
 
