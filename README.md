@@ -11,7 +11,9 @@ Furthermore, we introduce its few-shot extension, SimCLIP+, which employs normal
 pip install requirements.txt
 ```
 ### 2. Prepare Dataset ###
-
+#### MVTec AD 
+* Download the [MVTec](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset and place it into  ```data/mvtec```
+* Run```python data/mvtec.py```to generate the ```meta.json```file.
 ```
 data
 ├── mvtec
@@ -29,15 +31,36 @@ data
             ├── anomaly1
                 ├── 000.png
 ```
+#### VisA 
+* Download the [VisA](https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar) dataset and place it into  ```data/visa```
+* Run```python data/visa.py```to generate the ```meta.json```file.
+```
+data
+├── visa
+    ├── meta.json
+    ├── candle
+        ├── Data
+            ├── Images
+                ├── Anomaly
+                    ├── 000.JPG
+                ├── Normal
+                    ├── 0000.JPG
+            ├── Masks
+                ├── Anomaly
+                    ├── 000.png
+```
+
 ### 3. Download Model Weights ###
-* Download the weights that are pre-trained on the MVTec dataset [here](https://drive.google.com/drive/folders/1tQIySyWcKQC15Cq55Fd0gOIbzdzo-v3S?usp=drive_link).
+* Download the [weights](https://drive.google.com/drive/folders/1tQIySyWcKQC15Cq55Fd0gOIbzdzo-v3S?usp=drive_link) that are pre-trained on the MVTec dataset.
+* Move the weights to the ```pretrained_weights/train_on_mvtec```
 ```
 pretrained_weights
 ├── train_on_mvtec
     ├──trainable_epoch_20.pth
     ├──clip_epoch_20.pth
 ```
-* Download the weights that are pre-trained on the VisA dataset [here](https://drive.google.com/drive/folders/1nd5oWJdmG6_I-Ov7zJvWhRby0uRNtQaC?usp=drive_link).
+* Download the [weights](https://drive.google.com/drive/folders/1nd5oWJdmG6_I-Ov7zJvWhRby0uRNtQaC?usp=drive_link) that are pre-trained on the VisA dataset.
+* Move the weights to the ```pretrained_weights/train_on_visa```
 ```
 pretrained_weights
 ├── train_on_visa
