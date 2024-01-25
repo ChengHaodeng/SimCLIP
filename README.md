@@ -52,17 +52,17 @@ data
 
 ### 3. Download Model Weights ###
 * Download the [weights](https://drive.google.com/drive/folders/1tQIySyWcKQC15Cq55Fd0gOIbzdzo-v3S?usp=drive_link) that are pre-trained on the MVTec dataset.
-* Move the weights to the ```pretrained_weights/train_on_mvtec```
+* Move the weights to the ```pretrain_weights/train_on_mvtec```
 ```
-pretrained_weights
+pretrain_weights
 ├── train_on_mvtec
     ├──trainable_epoch_20.pth
     ├──clip_epoch_20.pth
 ```
 * Download the [weights](https://drive.google.com/drive/folders/1nd5oWJdmG6_I-Ov7zJvWhRby0uRNtQaC?usp=drive_link) that are pre-trained on the VisA dataset.
-* Move the weights to the ```pretrained_weights/train_on_visa```
+* Move the weights to the ```pretrain_weights/train_on_visa```
 ```
-pretrained_weights
+pretrain_weights
 ├── train_on_visa
     ├──trainable_epoch_20.pth
     ├──clip_epoch_20.pth
