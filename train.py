@@ -13,13 +13,9 @@ import torchvision.transforms as transforms
 import logging
 from torch.optim.lr_scheduler import LambdaLR, CosineAnnealingLR, MultiStepLR
 import open_clip
-from dataset import VisaDataset, MVTecDataset
-from model import LinearLayer
-from loss import FocalLoss, BinaryDiceLoss
-from prompt_ensemble import *
 import sys
 from tqdm import tqdm
-
+from utils import *
 def setup_seed(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
