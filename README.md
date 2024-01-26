@@ -69,11 +69,13 @@ pretrain_weights
 ```
 ### 4. Inference ###
 After completing the above steps, you can perform inference on the SimCLIP.
-* Testing on MVTec dataset
+* Inference on MVTec dataset (Both zero-shot and few-shot)
 ```
 bash test_mvtec.sh
 ```
-* Testing on VisA dataset
+
+
+* Inference on VisA dataset (Both zero-shot and few-shot)
 ```
 bash test_mvtec.sh
 ```
