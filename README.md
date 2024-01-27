@@ -50,7 +50,7 @@ data
                     ├── 000.png
 ```
 
-### 3. Download Model Weights ###
+### 3. Download Model Weights (Coming soon) ###
 * Download the weights that are pre-trained on the MVTec dataset.
 * Move the weights to the ```pretrain_weights/train_on_mvtec```
 ```
