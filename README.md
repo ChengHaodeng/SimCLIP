@@ -51,8 +51,8 @@ data
 ```
 
 ### 3. Download Model Weights (Coming soon) ###
-* Download the weights that are pre-trained on the MVTec dataset.
-* Move the [weights](https://mega.nz/folder/lLUGHCbB#qnTEmwxeNiaTI28XUXNYdw) to the ```pretrain_weights/train_on_mvtec```
+* Download the [weights](https://mega.nz/folder/lLUGHCbB#qnTEmwxeNiaTI28XUXNYdw) that are pre-trained on the MVTec dataset.
+* Move the weights to the ```pretrain_weights/train_on_mvtec```
 ```
 pretrain_weights
 ├── train_on_mvtec
