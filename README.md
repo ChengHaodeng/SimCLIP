@@ -1,6 +1,10 @@
 # SimCLIP
 This repository contains the official PyTorch implementation for SimCLIP.
 
+<div align=center>
+<img src="https://github.com/ChengHaodeng/SimCLIP/assets/108262839/ea54569d-4467-40f7-bd86-5a674b7ac07e"/>
+</div>
+
 Anomaly Detection, consisting of anomaly classification and segmentation, has been widely applied in various applications.
 Recently, Large pre-trained vision-language models, such as CLIP, have demonstrated significant potential in zero-/few-shot anomaly detection tasks.
 However, existing methods not only rely on expert knowledge to manually craft extensive text prompts but also suffer from misalignment of text high-level semantic features with image patch low-level features in anomaly segmentation tasks. In this paper, we propose a SimCLIP method, which focuses on refining the aforementioned misalignment problem through Implicit Prompt Tuning (IPT) within the text feature space. In this way, our approach requires only a simple two-class prompt to accomplish anomaly classification and segmentation tasks in zero-shot scenarios efficiently. 
