@@ -284,21 +284,6 @@ def test(args):
         f.write(results)
         f.write('\n')
 
-    # visualization
-    for data in vis_ls:
-        cls_name, vis, anomaly_map, img_save_path, gt_save_path, gt_mask, ori_save_path = data
-        ts = thresholds_px[cls_name]
-        anomaly_map[anomaly_map <= ts] = 0
-        anomaly_map[anomaly_map > ts] = 1
-        vis_pred = apply_ad_scoremap(vis, anomaly_map)
-        vis_pred = cv2.cvtColor(vis_pred, cv2.COLOR_RGB2BGR)
-        vis_gt = apply_ad_scoremap(vis, gt_mask)
-        vis_gt = cv2.cvtColor(vis_gt, cv2.COLOR_RGB2BGR)
-        vis_ori = cv2.cvtColor(vis, cv2.COLOR_RGB2BGR)
-        cv2.imwrite(img_save_path, vis_pred)
-        cv2.imwrite(gt_save_path, vis_gt)
-        cv2.imwrite(ori_save_path,vis_ori)
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser("VAND Challenge", add_help=True)
     # paths
