@@ -326,7 +326,7 @@ def test(args):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser("VAND Challenge", add_help=True)
+    parser = argparse.ArgumentParser("SimCLIP+", add_help=True)
     # paths
     parser.add_argument("--data_path", type=str, default="./data/visa", help="path to test dataset")
     parser.add_argument("--save_path", type=str, default='./results/visual/visa_1-shot_revise', help='path to save results')
