@@ -285,7 +285,7 @@ def test(args):
         f.write('\n')
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser("VAND Challenge", add_help=True)
+    parser = argparse.ArgumentParser("SimCLIP", add_help=True)
     # paths
     parser.add_argument("--data_path", type=str, default="./data/mvtec", help="path to test dataset")
     parser.add_argument("--save_path", type=str, default='./results/ablation_mvtec_0_shot_gt', help='path to save results')
