@@ -53,16 +53,16 @@ data
 ```
 pretrain_weights
 ├── train_on_mvtec
-    ├──trainable_epoch_20.pth
-    ├──clip_epoch_20.pth
+    ├──trainable_epoch_5.pth
+    ├──clip_epoch_5.pth
 ```
 * Download the weights that are pre-trained on the VisA dataset.
 * Move the weights to the ```pretrain_weights/train_on_visa```
 ```
 pretrain_weights
 ├── train_on_visa
-    ├──trainable_epoch_20.pth
-    ├──clip_epoch_20.pth
+    ├──trainable_epoch_5.pth
+    ├──clip_epoch_5.pth
 ```
 ### 4. Inference ###
 After completing the above steps, you can perform inference on the SimCLIP.
