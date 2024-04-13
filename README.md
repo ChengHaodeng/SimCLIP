@@ -1,11 +1,8 @@
 # SimCLIP
 This repository contains the official PyTorch implementation for SimCLIP.
 
-Anomaly Detection, consisting of anomaly classification and segmentation, has been widely applied in various applications.
 Recently, Large pre-trained vision-language models, such as CLIP, have demonstrated significant potential in zero-/few-shot anomaly detection tasks.
-However, existing methods not only rely on expert knowledge to manually craft extensive text prompts but also suffer from misalignment of text high-level semantic features with image patch low-level features in anomaly segmentation tasks. In this paper, we propose a SimCLIP method, which focuses on refining the aforementioned misalignment problem through Implicit Prompt Tuning (IPT) within the text feature space. In this way, our approach requires only a simple two-class prompt to accomplish anomaly classification and segmentation tasks in zero-shot scenarios efficiently. 
-Furthermore, we introduce its few-shot extension, SimCLIP+, which employs normal comparison images and learned text prompts as prior knowledge to tweak the anomaly score maps. Extensive experiments on two challenging datasets prove the more remarkable generalization capacity of our method compared to the current state-of-the-art.
-# Usage
+However, existing methods not only rely on expert knowledge to manually craft extensive text prompts but also suffer from a misalignment of high-level language features with fine-level vision features in anomaly segmentation tasks. In this paper, we propose a method, named SimCLIP, which focuses on refining the aforementioned misalignment problem through bidirectional adaptation of both Multi-Hierarchy Vision Adapter (MHVA) and Implicit Prompt Tuning (IPT). In this way, our approach requires only a simple binary prompt to accomplish anomaly classification and segmentation tasks in zero-shot scenarios efficiently. Furthermore, we introduce its few-shot extension, SimCLIP+, integrating the relational information among vision embedding and skillfully merging the cross-modal synergy information between vision and language to address AD tasks. Extensive experiments on two challenging datasets prove the more remarkable generalization capacity of our method compared to the current state-of-the-art.
 ### 1. Environment Setup ###
 ```
 pip install requirements.txt
