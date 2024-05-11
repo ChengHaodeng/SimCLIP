@@ -48,21 +48,21 @@ data
 ```
 
 ### 3. Download Model Weights ###
-* Download the weights that are pre-trained on the MVTec dataset.
-* Move the weights to the ```pretrain_weights/train_on_mvtec```
+* Download the [weights](https://mega.nz/folder/Ja12zCTJ#6IRz4LSdjT8zi9PeDgKn3Q) that have been fine-tuned on the pre-trained CLIP model using the test set of the MVTec.
+* Move the weights to the ```checkpoint/train_on_mvtec```
 ```
-pretrain_weights
+checkpoint
 ├── train_on_mvtec
-    ├──trainable_epoch_5.pth
-    ├──clip_epoch_5.pth
+    ├──visionAdapter.pth
+    ├──clip.pth
 ```
-* Download the weights that are pre-trained on the VisA dataset.
-* Move the weights to the ```pretrain_weights/train_on_visa```
+* Download the [weights](https://mega.nz/folder/NPtRGYJZ#C4Q7H8dKnTE6_5AQ_b6APA) that have been fine-tuned on the pre-trained CLIP model using the test set of the VisA.
+* Move the weights to the ```checkpoint/train_on_visa```
 ```
-pretrain_weights
+checkpoint
 ├── train_on_visa
-    ├──trainable_epoch_5.pth
-    ├──clip_epoch_5.pth
+    ├──visionAdapter.pth
+    ├──clip.pth
 ```
 ### 4. Inference ###
 After completing the above steps, you can perform inference on the SimCLIP.
